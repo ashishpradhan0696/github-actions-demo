@@ -4,10 +4,10 @@ jobs:
     hello-job: 
         runs-on: ubuntu-latest
         steps: 
-            - name: "Welcome"
-              run: echo "welcome to 2nd job"
+            - name: "Step 1"
+              run: echo "Running step 1"
     bye-job:
         runs-on: ubuntu-latest
         steps:
-            - name: "bye"
-              run: echo "bye 2nd job"         
+            - name: "Step 2"
+              run: echo ""Running step 2"         
